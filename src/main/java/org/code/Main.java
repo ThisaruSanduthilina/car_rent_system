@@ -245,7 +245,7 @@ public class Main{
     public static void main(String[] args) {
         CarRentalSystem rentalSystem = new CarRentalSystem();
 
-        Car car1 = new Car("A1", "AUDI", "A3", 90.0);
+        Car car1 = new Car("A11", "AUDI", "A3", 90.0);
         Car car2 = new Car("A2", "BMW", "i8", 100.0);
         Car car3 = new Car("A3", "TEZLA", "Model X", 150.0);
         rentalSystem.addCar(car1);
